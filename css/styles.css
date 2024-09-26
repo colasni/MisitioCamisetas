@@ -1,0 +1,100 @@
+body{
+    background-image:url("../img/fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 10px 0;
+    text-align:center;
+}
+
+.custom-nav .nav-link{
+    font-size: 30px;
+    color:black
+}
+
+.costom-nav .nav-link.active,
+.custom-nav .nav-link:focus
+{
+    background-color: transparent;
+    color: #4257f5;
+}
+.custom-nav .nav-link:hover{
+    background-color: transparent;
+    color: #4257f5;
+}
+    
+.carousel-item img{
+    height: 400px; /* Cambia la altura para hacer el carrusel más pequeño*/
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+}
+
+.carousel {
+    width: 60%; /* Ajusta el ancho del carrusel */
+    margin: 0 auto; /* centra el carrusel*/
+}
+
+.welcome-text {
+    font-size: 3rem; /* Temaño de la letra grande */
+    font-family: 'Dancing Script', cursive ; /*aplica la fuente Dancing Script */
+    margin: 40px 0; /* Espacia superior e interior */
+    color: #b3aeae; /* color del texto */
+    background-color: #3b3b3b;
+}
+
+.container {
+    max-width: 100%; /* se adapta al ancho de la pantalla */
+    padding: 15px; /* Espacio interno */
+    margin: 0 auto; /* centra el contenedor horizontalmente */
+}
+
+.contenido-quienes-somos{
+    text-align: center;
+    padding: 120px;
+}
+
+footer{
+    background-color: #3b3b3b;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+
+.footer-icons a img{
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+
+.div_principal{
+    display: flex;
+    gap: 40 o 20px;
+}
+
+.div_principal img{
+    height: 300px;
+    padding: 20px;
+}
+
+.div_principal p{
+    padding: 20px;
+}
